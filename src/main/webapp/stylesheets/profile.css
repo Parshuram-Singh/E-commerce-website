@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+.sidebar {
+	width: 210px;
+	height: 1000px;
+	background-color: #ddd;
+	padding: 20px;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar li {
+	margin-bottom: 20px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 10px;
+}
+
+.sidebar a:hover {
+	background-color: #ddd;
+}
+
+.sidebar .danger {
+	background-color: #8c1919;
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+.info-container {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.info-container p {
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ddd;
+}
+
+.profile-header {
+	margin-bottom: 20px;
+}
+
+.profile-header h1 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.profile-info {
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.profile-picture {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 10 auto;
+	display: block;
+}

@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* BACK TO TOP */
+
+
+.backTop {
+    height: 52px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backTop:hover {
+    background: #495768;
+}
+
+.backTop a {
+    color: #eee;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.socialHandle {
+    width: 100%;
+    background: #232f3e;
+}
+
+.sh-part-1 {
+    padding: 36px 0;
+    max-width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+}
+
+.sh-part-1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sh-part-1 ul li {
+    font-size: 14px;
+    line-height: 2;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.sh-part-1 ul li:first-child {
+    font-weight: 700;
+    color: #fff;
+}
+
+.sh-part-2 {
+    padding: 10px 0 30px;
+    border-top: 1px solid #666;
+}
+
+.foot-logo {
+    padding: 30px 0;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 92px;
+}
+
+.foot-logo img {
+    height: 36px;
+}
+
+.foot-logo button {
+    padding: 7px 10px;
+    color: #ddd;
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.9vh;
+    font-size: 12px;
+    color: #eee;
+    padding: 2vh 19vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.locations span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background: #131a22;
+}
+
+.footer-part-1 {
+    max-width: 66vw;
+    margin: auto;
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px;
+}
+
+.footer-part-1 ul li {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #777;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-part-1 ul li:first-child {
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-part-1 ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-part-2 {
+    padding: 10px 0 40px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-part-2 p {
+    margin: 0;
+}
+
+.footer-part-2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-part-2 a:hover {
+    text-decoration: underline;
+}

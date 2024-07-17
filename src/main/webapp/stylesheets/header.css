@@ -1,0 +1,130 @@
+@import
+	url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap")
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+}
+
+/* ============== MENU BAR ============= */
+
+.brand {
+	font-size: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menuBar {
+	padding: 5px 15px;
+	background-color: #232f3e;
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 1160px) {
+	.menuBar {
+		padding: 10px 15px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.menuBar {
+		display: none;
+	}
+}
+
+.menuBar ul {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1160px) {
+	.menuBar ul {
+		gap: 6px;
+	}
+}
+
+.menuBar li {
+	color: #fff;
+	margin-right: 15px;
+	list-style-type: none;
+}
+
+.menuBar a {
+	font-size: 9px;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 1160px) {
+	.menuBar a {
+		font-size: 13px;
+	}
+}
+
+/* QUICK LINK */
+.quickLink {
+	padding: 5px 30px;
+	border-bottom: 0.3vh solid #eee;
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+	.quickLink {
+		display: none;
+	}
+}
+
+.quickLink ul {
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.quickLink h2 {
+	font-size: 18px;
+	margin: 0px 20px;
+}
+
+.quickLink a {
+	text-decoration: none;
+	color: #111;
+	font-size: 14px;
+}
+
+.quickLink a:hover {
+	text-decoration: 2px rgb(255, 89, 0) underline;
+	cursor: pointer;
+}
+
+.quickLink div {
+	text-align: center;
+	line-height: 1;
+}
+
+.quickLink div p:nth-child(1) {
+	color: #6f91c4;
+	font-size: 24px;
+}
+
+.quickLink div p:nth-child(2) {
+	color: #000;
+	font-size: 18px;
+}
+
+/* NOT TO SHOW */
+.location {
+	display: none;
+}

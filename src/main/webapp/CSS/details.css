@@ -1,0 +1,338 @@
+body {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.dark_mode {
+    background-color: rgba(0, 0, 0, 0.808);
+    background: linear-gradient(black, rgb(30, 28, 28));
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: cover;
+}
+.topnav {
+    /* background-color: rgb(14, 11, 11); */
+    border-bottom: 1px solid rgb(122, 66, 66);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;   
+
+}
+
+
+.topnav li {
+    display: flex;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-size: 22px;
+}
+.a_nav {
+    text-decoration: none;
+    
+}
+
+.navlistactive {
+    color: rgb(4, 58, 252);
+}
+
+.productname {
+    border-bottom: 2px solid rgb(241, 12, 230);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* color: rgb(63, 32, 71); */
+}
+
+.profilenav {
+    display: flex;
+    margin-left: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeprinter5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+    /* background-color: antiquewhite; */
+    height: 450px;
+
+}
+
+.left {
+    width: 47%
+}
+
+.right {
+    padding-top: 30px;
+    width: 33%;
+    height: fit-content;
+
+
+
+
+}
+
+.pricewishlist {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+
+}
+
+.select {
+    width: 70px;
+    height: 40px;
+}
+
+.pricewishlist span {
+    margin-left: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    font-weight: 450;
+    /* text-decoration: line-through; */
+}
+
+.pricewishlist #linethrough {
+    text-decoration: line-through;
+    color: red;
+}
+
+.select:active {
+    border: 4px solid black;
+    opacity: 0.5;
+}
+
+.estdelivery {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    font-size: 15px;
+    font-weight: thin;
+}
+
+.addtocartitem {
+    margin-top: 15px;
+}
+
+.addtocartitem button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d00ffc0;
+    color: rgb(245, 240, 240);
+    width: 100%;
+    height: 38px;
+    font-size: 20px;
+}
+
+.addtocartitem button:hover {
+    background-color: white;
+  
+}
+
+.specificationitem {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20rem;
+}
+
+.insidespecification {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    background-color: rgba(56, 158, 213, 0.182);
+    height: 37px;
+}
+
+.insidespecification h4 {
+    padding-left: 25px;
+    text-align: start;
+}
+
+.insidesublist {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid rgba(223, 19, 19, 0.186);
+}
+
+insidesublist span {
+    text-align: end;
+}
+
+.spanspecification {
+    text-align: end;
+    padding-left: 400px;
+    padding-top: 18px;
+}
+
+.show_hide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 30rem;
+    margin: 1rem;
+}
+
+.one,
+.two,
+.three {
+    width: 100%;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-top: 1px solid black;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+.ans {
+    display: none;
+}
+
+.show_ans {
+    display: block;
+}
+
+
+.hide {
+    background-color: white;
+    color: black;
+}
+
+.show {
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 0;
+}
+
+.items_that_are_added {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: fit-content;
+    width: 100vw;
+    display: none;
+    z-index: 999;
+    position: relative;
+
+}
+
+.cut {
+    position: absolute;
+    font-size: 6rem;
+    color: white;
+    left: 0;
+    cursor: pointer;
+}
+
+.top_title {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.all_added {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.added_items {
+    background-color: white;
+    width: 22rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+
+}
+
+.del {
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    padding: 0.3rem;
+}
+
+.del:hover {
+    background-color: red;
+}
+
+.no {
+    overflow: hidden;
+}
+
+.no_ {
+    color: white;
+}
+/* specification */
+.specification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.spe {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+
+.specification strong {
+    color: #007BFF;
+}
+
+.specification p {
+    margin: 5px 0;
+    /* color: #d1c7c7; */
+}
+
+/* iframe */
+.iframe {
+    text-align: center;
+}
+
+.dark_nav{
+    background-color: black;
+    color: white;
+}
+.mode {
+    background-color: black;
+    width:5rem;
+    height: 2rem;
+    color: white;
+    border: 1px solid white;
+
+}
+

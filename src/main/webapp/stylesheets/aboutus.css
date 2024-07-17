@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #ddd; /* Light background color */
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333; /* Text color */
+  text-align: center; /* Centered heading */
+  margin-bottom: 1rem;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article.card {
+  margin: 1rem;
+  background-color: #fff; /* Card background color */
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 28%; 
+  text-align: center;
+  position: relative; /* For border effect */
+}
+
+article.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd; /* Card border */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures border stays inside card */
+}
+
+article h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333; /* Text color */
+}
+
+article img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+article p {
+  line-height: 1.5;
+  color: #666; /* Text color for descriptions */
+}
